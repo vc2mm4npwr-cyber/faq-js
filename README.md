@@ -47,6 +47,7 @@ JavaScriptの学習として、よくあるFAQ（質問と回答）ページを�
 - `closest()` を使って、クリックした質問に対応する回答だけを操作するようにした
 - `classList.toggle()` を使い、CSSとJavaScriptの役割を分けた
 - HTMLのセマンティックな構造(section,p)を意識して実装した
+- HTML/CSS/JavaScriptの役割を分けて書くことを意識した
 - FAQの文言を実際の利用シーンを想定して作成した
 - シンプルで見やすいデザインを意識した
 
