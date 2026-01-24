@@ -55,6 +55,7 @@ JavaScriptの学習として、よくあるFAQ（質問と回答）ページを�
 
 ## 学んだこと
 - DOMの取得方法（`querySelector`, `querySelectorAll`）
+- classの付け替えによる表示、非表示の切り替え
 - イベントリスナーの使い方
 - HTML構造とJavaScriptの関係性の重要さ
 
