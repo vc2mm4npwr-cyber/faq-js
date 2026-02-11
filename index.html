@@ -3,37 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>JavaScript　ポートフォリオ</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <h1>JavaScript 練習用ポートフォリオ</h1>
     <p>基本的なDOM操作とイベント処理の練習</p>
+    
+    <section id="works">
+        <h2>Works</h2>
 
-    <section class="faq-section">
-        <h1>よくある質問</h1>
+        <!-- FAQ WORK -->
+        <section class="work-item">
+            <h3>FAQ UI</h3>
+            <p class="work-desc">
+                JavaScriptでクリックイベントを制御し、
+                質問の開閉を実装しました。
+            </p>
+
+            <!-- ここに既存FAQをそのまま貼る -->
+            <div class="faq-section">
+                <!-- 既存のFAQ HTML -->
+                <section class="faq-section">
+                <h1>よくある質問</h1>
             
-        <div class="faq-item">
-            <button class="question">Q. プログラミング初心者でも作れますか？</button>
-            <div class="answer">
-                <p>A. はい。HTML、CSSの基礎と、簡単なJavaScriptが理解できれば作れます。</p>
-            </div>
-        </div>
+                    <div class="faq-item">
+                        <button class="question">Q. プログラミング初心者でも作れますか？</button>
+                        <div class="answer">
+                            <p>A. はい。HTML、CSSの基礎と、簡単なJavaScriptが理解できれば作れます。</p>
+                        </div>
+                    </div>
 
-        <div class="faq-item">
-            <button class="question">Q. JavaScriptはどこまで必要ですか？</button>
-            <div class="answer">
-                <p>A. DOM操作とイベント処理が理解できていれば、このFAQは実践できます。</p>
-            </div>
-        </div>
+                    <div class="faq-item">
+                        <button class="question">Q. JavaScriptはどこまで必要ですか？</button>
+                        <div class="answer">
+                            <p>A. DOM操作とイベント処理が理解できていれば、このFAQは実践できます。</p>
+                        </div>
+                    </div>
 
-        <div class="faq-item">
-            <button class="question">Q. 副業で使えるレベルですか？</button>
-            <div class="answer">
-                <p>A. 基本的な動的UIを作る練習として、副業の土台になる内容です。</p>
+                    <div class="faq-item">
+                        <button class="question">Q. 副業で使えるレベルですか？</button>
+                        <div class="answer">
+                            <p>A. 基本的な動的UIを作る練習として、副業の土台になる内容です。</p>
+                        </div>
+                    </div>
+                </section>
             </div>
-        </div>
-
+        </section>
     </section>
 
     <section class="modal-section">
@@ -50,6 +66,6 @@
 
     </section>
 
-    <script src="main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
