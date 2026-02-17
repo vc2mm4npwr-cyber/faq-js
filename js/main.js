@@ -6,14 +6,22 @@ const answers = document.querySelectorAll('.answer');
 
 questions.forEach(function(question) {
   question.addEventListener('click', function() {
+
     const faqItem = question.closest('.faq-item');
     const answer = faqItem.querySelector('.answer');
     const isOpen = answer.classList.contains('open');
+    
     answers.forEach(function(a) {
       a.classList.remove('open');
     });
+    
+    questions.forEach(function(q) {
+      q.classList.remove('active');
+    });
+
     if(!isOpen) {
         answer.classList.add('open');
+        question.classList.add('active');
     }
   });
 });

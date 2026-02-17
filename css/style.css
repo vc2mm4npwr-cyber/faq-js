@@ -50,13 +50,19 @@ body {
 }
 
 .nav li {
-    margin-bottom: 24px;
+    margin-bottom: none;
 }
 
 .nav a {
+    display: block;
     text-decoration: none;
     font-size: 18px;
+    padding: 15px 20px;
     color: #333;
+}
+
+.nav a:hover {
+    background: #f5f5f5;
 }
 
 .nav-overlay {
@@ -97,8 +103,8 @@ body {
 }
 
 .faq-item:hover {
-    transform: translateY(-2px);
-    transition: -.2s;
+    transform: translateY(-3px);
+    transition: 0.2s;
 }
 
 .question {
@@ -116,6 +122,10 @@ body {
     top: 0;
 }
 
+.question.active::after {
+    content:"-";
+}
+
 .answer {
     display: none;
 }
@@ -125,6 +135,7 @@ body {
 }
 
 #openModal {
+    color: #333;
     cursor: pointer;
 }
 
@@ -188,7 +199,7 @@ body {
 @media (max-width: 768px) {
   body {
     font-size: 18px;
-    line-height: 1.8;
+    line-height: 1.6;
   }
 
   h1 {
@@ -202,7 +213,7 @@ body {
   }
 
   .question {
-    font-size: 20px;
+    font-size: 18px;
     padding: 14px 36px 14px 12px;
   }
 
