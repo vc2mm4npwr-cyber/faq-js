@@ -79,8 +79,7 @@ body {
 .faq-section {
     max-width: 700px;
     margin: 60px auto;
-    paddind:0 16px;
-
+    padding:0 16px;
     z-index: 90;
 }
 
@@ -171,9 +170,23 @@ body {
 .work-desc {
   margin-bottom: 20px;
   color: #555;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 #faq {
   scroll-margin-top: 80px;
 }
+
+/* ===== Typography Base ===== */
+body {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 17px;
+  }
+}
+
